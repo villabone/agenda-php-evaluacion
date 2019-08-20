@@ -17,7 +17,7 @@ if ($response['conexion'] == 'OK'){
 
     $insert->execute();
 
-
+    $d_password = "1234";
     $email = 'usuario@gmail.com';
     $nombre = 'usuario';
     $password = password_hash($d_password, PASSWORD_DEFAULT);
